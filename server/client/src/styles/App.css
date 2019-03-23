@@ -1,3 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Cover */
+
 .cover {
     background: url('../images/IMG_0187.JPG');
+}
+
+/* Navbar */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.nav img {
+    padding: 10px;
+    position: absolute;
+
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-list li {
+    color: white;
+    padding: 30px;
+    list-style: none;
 }
