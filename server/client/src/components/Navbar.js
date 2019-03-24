@@ -40,21 +40,62 @@ class Navbar extends Component {
         });
     }
 
+    renderNavbar(){
+        if(window.innerWidth > 800){
+            return (
+                <header>
+                    <div className="dropdown-menu">
+                        <img 
+                            alt="Gainz Fitness" 
+                            src={gainzLogo} style={{ width: '150px', height: '125px'}}
+                        />
+                    </div>
+                    <nav className="nav-list">
+                        <li>About</li>
+                        <li>Plans</li>
+                        <li>Contact</li>
+                        <li>Shop</li>
+                    </nav>
+                </header>
+            );
+        } else {
+            return (
+                <header>
+                    <div className="dropdown-menu">
+                        <img 
+                            alt="Gainz Fitness" 
+                            src={gainzLogo} style={{ width: '65px', height: '50px'}}
+                        />
+                        <i onClick={this.showMenu} className="bar icons"></i>
+                    </div>
+                    { this.state.showMenu 
+                        ? (
+                            <nav 
+                                className="nav-list"
+                                ref={(element) => { this.dropdownMenu = element }}
+                            >
+                                <li>About</li>
+                                <li>Plans</li>
+                                <li>Contact</li>
+                                <li>Shop</li>
+                            </nav>
+
+                        ) : (
+                            null
+                        )
+                    
+                    }
+                </header>
+            );
+        }
+    }
+
     render(){
-        return (
-            <div className="nav">
-                <img 
-                    alt="Gainz Fitness" 
-                    src={gainzLogo} style={{ width: '150px', height: '125px'}}
-                />
-                <ul className="nav-list">
-                    <li>About</li>
-                    <li>Plans</li>
-                    <li>Contact</li>
-                    <li>Shop</li>
-                </ul>
-            </div>
-        );
+      return (
+        <div>
+            {this.renderNavbar()}
+        </div>
+      );
     }
 }
 
