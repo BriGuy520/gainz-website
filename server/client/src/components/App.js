@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Cover from './Cover';
 import About from './About';
 import Plans from './Plans';
+import Footer from './Footer';
 import '../styles/App.css';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Cover />
       <About />
       <Plans />
+      <Footer />
     </div>
   );
 }

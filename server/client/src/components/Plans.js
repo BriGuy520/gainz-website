@@ -5,15 +5,18 @@ class Plans extends Component {
   state = {
     plans: [{
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      benefits: ['Crush it like Gaines', 'Personalization', 'Save Money', 'Meal plans']
+      benefits: ['Crush it like Gaines', 'Personalization', 'Save Money', 'Meal plans'],
+      price: 25
     },
     {
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      benefits: ['Crush it like Gaines', 'Personalization', 'Save Money', 'Meal plans']
+      benefits: ['Crush it like Gaines', 'Personalization', 'Save Money', 'Meal plans'],
+      price: 50
     },
     {
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      benefits: ['Crush it like Gaines', 'Personalization', 'Save Money', 'Meal plans']
+      benefits: ['Crush it like Gaines', 'Personalization', 'Save Money', 'Meal plans'],
+      price: 100
     }]
 
   }
@@ -24,15 +27,15 @@ class Plans extends Component {
         <div className="ui link cards">
           <div className="card">
             <div class="image">
-              <h1>$25 per Session</h1>
+              <h1>${plan.price} per Session</h1>
             </div>
-            <div className="content">
+            <div className="content pad-list">
               <div className="description">
                 <p>{plan.description}</p>
               </div>
               <div className="extra-content">
                 <ul>
-                  <li>{plan.benefits[0]}</li>
+                  {plan.benefits.map(benefit => <li>{benefit}</li>)} 
                 </ul>
               </div>
             </div>
@@ -45,13 +48,16 @@ class Plans extends Component {
 
   render(){
     return (
-      <div className="container plans-section">
+      <div className="plans-section">
+        <div className="container">
         <h1>Pick a Plan That Works for You.</h1>
         <p>No need to box yourself in. Pick a plan that works best for your schedule and budget.</p>
         <div className="plan-cards">
           {this.renderPlans()}
         </div> 
-      </div>   
+      </div> 
+      </div>
+        
     );
   }
 }

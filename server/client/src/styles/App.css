@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+  min-height: 100%;
+}
+
 body {
     font-family: 'Exo 2', sans-serif;
 }
@@ -56,12 +60,18 @@ h1 {
 
 .about-section {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
 }
 
+.about-section h1 {
+  text-align: left;
+  width: 100%;
+}
+
 .about-copy {
-  width: 50%;
+  width: 100%;
 }
 
 .about-copy p {
@@ -72,11 +82,19 @@ h1 {
 
 .plans-section {
   background-color: red;
+  height: 100vh;
 }
 
 .plans-section p, h1 {
-  padding-top: 20px;
   text-align: center;
+}
+
+.plans {
+  padding: 10px;
+}
+
+.pad-list {
+  padding: 10px;
 }
 
 .plan-cards {
@@ -84,14 +102,39 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   padding: 10px;
-  height: 5vh;
 }
 
 .plan-cards ul li {
   list-style-type: square;
-  padding: 5px;
+  padding: 10px;
 }
 
+/* Footer */
+
+.footer {
+  padding: 20px;
+}
+
+.divider {
+  padding: 10px 0;
+  border-bottom: 2px solid black;
+}
+
+.socials-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.socials {
+  padding: 10px 20px;
+  font-size: 3.4em;
+  color: black;
+}
+
+.socials i {
+  padding: 10px;
+}
 
 
 @media only screen and (max-width: 800px){
