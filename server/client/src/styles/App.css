@@ -62,6 +62,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  padding: 30px;
   width: 100%;
 }
 
@@ -71,17 +72,22 @@ h1 {
 }
 
 .about-copy {
-  width: 100%;
+  width: 50%;
+  padding: 15px;
 }
 
 .about-copy p {
   padding: 10px;
 }
 
+.about-image {
+  padding-left: 50px;
+}
+
 /* Plans */
 
 .plans-section {
-  background-color: red;
+  background-color: rgba(173, 27, 27, 0.959);
   height: 100vh;
 }
 
@@ -91,6 +97,7 @@ h1 {
 
 .plans {
   padding: 10px;
+  margin: 0;
 }
 
 .pad-list {
@@ -104,8 +111,21 @@ h1 {
   padding: 10px;
 }
 
+.plan-cards p {
+  padding: 15px;
+}
+
 .plan-cards ul li {
-  list-style-type: square;
+  padding: 10px;
+  font-size: 1.4em;
+}
+
+ul {
+  list-style: none;
+}
+
+ ul li:before {
+  content: '✓';
   padding: 10px;
 }
 
@@ -113,11 +133,12 @@ h1 {
 
 .footer {
   padding: 20px;
+  background: black;
 }
 
 .divider {
   padding: 10px 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 .socials-logo {
@@ -132,8 +153,13 @@ h1 {
   color: black;
 }
 
+.footer p {
+  color: white;
+}
+
 .socials i {
-  padding: 10px;
+  padding: 10px 40px;
+  color: rgba(173, 27, 27, 0.959);
 }
 
 
@@ -157,7 +183,7 @@ h1 {
     }
   
     .dropdown-menu i {
-      color: red;
+      color: rgba(230, 77, 77, 0.973);
       display: flex;
       justify-content: right;
       font-size: 2em;

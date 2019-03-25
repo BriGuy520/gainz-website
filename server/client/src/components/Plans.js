@@ -50,8 +50,8 @@ class Plans extends Component {
     return (
       <div className="plans-section">
         <div className="container">
-        <h1>Pick a Plan That Works for You.</h1>
-        <p>No need to box yourself in. Pick a plan that works best for your schedule and budget.</p>
+          <h1>Pick a Plan That Works for You.</h1>
+          <p>No need to box yourself in. Pick a plan that works best for your schedule and budget.</p>
         <div className="plan-cards">
           {this.renderPlans()}
         </div> 
