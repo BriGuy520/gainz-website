@@ -114,6 +114,7 @@ h1 {
     }
   
     .dropdown-menu i {
+      color: red;
       display: flex;
       justify-content: right;
       font-size: 2em;
@@ -121,7 +122,6 @@ h1 {
       cursor: pointer;
       margin: 18px;
       padding-top: 3px;
-      background: white;
     }
   
     nav li {
@@ -152,13 +152,14 @@ h1 {
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
-      padding: 10px 0;
+    }
+
+    .dropdown-menu img {
+      position: relative;
+      float: left;
     }
   
     .dropdown-menu i {
-      display: flex;
-      justify-content: right;
-      background-color: white;
       font-size: 2em;
       border-radius: 10%;
       cursor: pointer;
@@ -170,7 +171,7 @@ h1 {
       display: block;
       float: left;
       width: 100%;
-      padding: 10px;
+      padding: 2px;
       text-decoration: none;
     }
   
@@ -179,6 +180,10 @@ h1 {
       flex-direction: column;
       width: 100%;
       overflow: hidden;
-      padding: 0;
+    }
+
+    .nav-list {
+      display: flex;
+      flex-direction: column;
     }
   }

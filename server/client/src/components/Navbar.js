@@ -66,7 +66,7 @@ class Navbar extends Component {
                             alt="Gainz Fitness" 
                             src={gainzLogo} style={{ width: '65px', height: '50px'}}
                         />
-                        <i onClick={this.showMenu} className="bar icons"></i>
+                        <i onClick={this.showMenu} className="bars icon"></i>
                     </div>
                     { this.state.showMenu 
                         ? (
