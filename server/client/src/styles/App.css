@@ -81,6 +81,10 @@ h1 {
   justify-content: space-around;
 }
 
+.plan-cards ul li {
+  list-style-type: square;
+}
+
 
 
 @media only screen and (max-width: 800px){
