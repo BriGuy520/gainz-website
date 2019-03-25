@@ -70,19 +70,26 @@ h1 {
 
 /* Plans */
 
-.plan-section {
-  padding: 30px;
-  align-content: center;
+.plans-section {
+  background-color: red;
+}
+
+.plans-section p, h1 {
+  padding-top: 20px;
+  text-align: center;
 }
 
 .plan-cards {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 10px;
+  height: 5vh;
 }
 
 .plan-cards ul li {
   list-style-type: square;
+  padding: 5px;
 }
 
 

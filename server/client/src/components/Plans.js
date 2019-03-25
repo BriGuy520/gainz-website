@@ -23,6 +23,9 @@ class Plans extends Component {
       return (
         <div className="ui link cards">
           <div className="card">
+            <div class="image">
+              <h1>$25 per Session</h1>
+            </div>
             <div className="content">
               <div className="description">
                 <p>{plan.description}</p>
@@ -47,8 +50,7 @@ class Plans extends Component {
         <p>No need to box yourself in. Pick a plan that works best for your schedule and budget.</p>
         <div className="plan-cards">
           {this.renderPlans()}
-        </div>
-        
+        </div> 
       </div>   
     );
   }
