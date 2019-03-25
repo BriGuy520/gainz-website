@@ -8,10 +8,16 @@ body {
     font-family: 'Exo 2', sans-serif;
 }
 
+h1 {
+  font-size: 3.4em;
+  padding: 15px;
+}
+
 /* Cover */
 
 .cover {
     background: url('../images/IMG_0187.JPG');
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
@@ -46,7 +52,38 @@ body {
     list-style: none;
 }
 
-@media only screen and (max-width: 780px){
+/* About */
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-copy {
+  width: 50%;
+}
+
+.about-copy p {
+  padding: 10px;
+}
+
+/* Plans */
+
+.plan-section {
+  padding: 30px;
+  align-content: center;
+}
+
+.plan-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+@media only screen and (max-width: 800px){
 
     body {
       margin: 0;
@@ -55,18 +92,25 @@ body {
     .dropdown-menu {
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
+      justify-content: space-between;
       width: 100%;
       padding: 10px 0;
     }
+
+    .dropdown-menu img {
+      position: relative;
+      float: left;
+    }
   
     .dropdown-menu i {
+      display: flex;
+      justify-content: right;
       font-size: 2em;
       border-radius: 10%;
       cursor: pointer;
       margin: 18px;
       padding-top: 3px;
-      color: white;
+      background: white;
     }
   
     nav li {
@@ -101,6 +145,9 @@ body {
     }
   
     .dropdown-menu i {
+      display: flex;
+      justify-content: right;
+      background-color: white;
       font-size: 2em;
       border-radius: 10%;
       cursor: pointer;
@@ -108,7 +155,7 @@ body {
       padding-top: 3px;
     }
   
-    .nav li {
+    nav li {
       display: block;
       float: left;
       width: 100%;

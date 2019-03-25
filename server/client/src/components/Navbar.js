@@ -91,11 +91,11 @@ class Navbar extends Component {
     }
 
     render(){
-      return (
-        <div>
-            {this.renderNavbar()}
-        </div>
-      );
+        return (
+            <div>
+                {this.renderNavbar()}
+            </div>
+        );
     }
 }
 
