@@ -19,12 +19,23 @@ h1 {
 
 /* Cover */
 
+/*
 .cover {
     background: url('../images/IMG_0187.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+}
+*/
+
+#slideshow {
+  height: 100vh;
+  width: 100%;
+}
+
+#slideshow > div {
+  position: absolute;
 }
 
 /* Navbar */
@@ -95,6 +106,10 @@ h1 {
   text-align: center;
 }
 
+.plans-section p {
+  font-size: 1.2em;
+}
+
 .plans {
   padding: 10px;
   margin: 0;
@@ -127,6 +142,41 @@ ul {
  ul li:before {
   content: '✓';
   padding: 10px;
+}
+
+/* Contact */
+
+.contact {
+  height: 50vh;
+  width: 100%;
+  background: rgba(201, 194, 194, 0.87);
+}
+
+.contact p, h1 {
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.2em;
+}
+
+.contact-box {
+  padding: 30px;
+  align-content: center;
+}
+
+.contact-box i {
+  background: black;
+  color: white;
+  font-size: 4.4em;
+}
+
+.contact-box a {
+  padding: 30px;
+  font-size: 2.4em;
+  padding-top: 10px;
+  text-align: center;
+  background: white;
 }
 
 /* Footer */
