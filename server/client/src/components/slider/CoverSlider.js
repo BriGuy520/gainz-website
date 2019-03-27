@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 're-carousel';
 import Cover1 from './Cover1';
 import Cover2 from './Cover2';
+import Cover3 from './Cover3';
 
 const CoverSlider = () => {
   return (
@@ -13,7 +14,9 @@ const CoverSlider = () => {
         <div style={{backgroundColor: 'orange', height: '100%'}}>
           <Cover2 />
         </div>
-        <div style={{backgroundColor: 'orchid', height: '100%'}}>Frame 3</div>
+        <div style={{height: '100%'}}>
+          <Cover3 />
+        </div>
       </Carousel>
     </div>
     

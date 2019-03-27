@@ -35,6 +35,27 @@ h1 {
     width: 100%;
 }
 
+.cover1-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cover1 img {
+  padding-top: 10%;
+  width: 30%;
+  height: 30%;
+}
+
+.cover1-copy {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 10%;
+  color: white;
+  text-align: center;
+}
+
 .cover2 {
   background: url('../images/IMG_0189.JPG');
   background-size: cover;
@@ -45,22 +66,56 @@ h1 {
 
 .cover2-copy {
   padding: 150px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 30%;
+  padding-left: 60%;
   color: white;
+  text-align: center;
 }
 
 .cover2-copy p {
-  padding: 0 30px;
+  padding: 20px 50px;
+  line-height: 1.4em;
+}
+
+.cover2-copy button {
+  text-align: center;
 }
 
 .survey-button {
   width: 50%;
-  margin: 0 auto;
-  padding: 20px 0; 
+  padding: 50%;
+
 }
+
+.survey-button a {
+  color: white;
+}
+
+.cover3 {
+  height: 100vh;
+  width: 100%;
+}
+
+.cover3-copy {
+  padding: 150px 0;
+  width: 50%;
+  text-align: center;
+}
+
+.cover3-copy ul {
+  padding-bottom: 15px;
+}
+
+.cover3-copy ul li {
+  font-size: 1.4em;
+  line-height: 2em;
+}
+
+.cover3-info {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
 
 
 /* Navbar */
