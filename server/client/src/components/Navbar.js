@@ -45,7 +45,8 @@ class Navbar extends Component {
             return (
                 <header>
                     <div className="dropdown-menu">
-                        <img 
+                        <img
+                            className="gainz-logo" 
                             alt="Gainz Fitness" 
                             src={gainzLogo} style={{ width: '150px', height: '125px'}}
                         />

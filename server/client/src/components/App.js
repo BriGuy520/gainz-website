@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Cover from './Cover';
+import CoverSlider from './slider/CoverSlider';
 import About from './About';
 import Plans from './Plans';
 import Contact from './Contact';
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Cover />
+      <CoverSlider />
       <About />
       <Plans />
       <Contact />

@@ -17,9 +17,16 @@ h1 {
   padding: 15px;
 }
 
+.gainz-logo {
+  z-index: 1000;
+}
+
 /* Cover */
 
-/*
+.slider {
+  height: 100vh;
+}
+
 .cover {
     background: url('../images/IMG_0187.JPG');
     background-size: cover;
@@ -27,16 +34,7 @@ h1 {
     height: 100vh;
     width: 100%;
 }
-*/
 
-#slideshow {
-  height: 100vh;
-  width: 100%;
-}
-
-#slideshow > div {
-  position: absolute;
-}
 
 /* Navbar */
 
@@ -154,6 +152,7 @@ ul {
 
 .contact p, h1 {
   text-align: center;
+  margin: 0;
 }
 
 .contact p {
@@ -161,20 +160,25 @@ ul {
 }
 
 .contact-box {
-  padding: 30px;
   align-content: center;
 }
 
-.contact-box i {
+.icon-box {
+  padding: 20px;
+}
+
+.icon-box i {
+  padding: 20px;
+}
+
+.icon-box i {
+  padding: 10px;
   background: black;
   color: white;
-  font-size: 4.4em;
 }
 
 .contact-box a {
-  padding: 30px;
-  font-size: 2.4em;
-  padding-top: 10px;
+  font-size: 2em;
   text-align: center;
   background: white;
 }
