@@ -27,12 +27,20 @@ h1 {
   height: 100vh;
 }
 
-.cover {
+.cover1 {
     background: url('../images/IMG_0187.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+}
+
+.cover2 {
+  background: url('../images/IMG_0189.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
 }
 
 
