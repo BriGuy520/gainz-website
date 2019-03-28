@@ -24,10 +24,9 @@ class Plans extends Component {
   renderPlans(){
     return this.state.plans.map(plan => {
       return (
-        <div className="ui link cards">
-          <div className="card">
+          <div className="card card-barrier">
             <div class="image">
-              <h1>${plan.price} per Session</h1>
+              <h1>${plan.price}/Session</h1>
             </div>
             <div className="content pad-list">
               <div className="description">
@@ -40,7 +39,6 @@ class Plans extends Component {
               </div>
             </div>
           </div>
-        </div>
       );
     })
 
