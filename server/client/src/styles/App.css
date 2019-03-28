@@ -242,27 +242,37 @@ ul {
 }
 
 .contact-box {
+  display: flex;
+  flex-direction: row;
   align-content: center;
+  background-color: white;
+  margin: 5% 18%;
+  width: 65%;
+  font-size: 2em;
+  border-radius: 3px;
+  box-shadow: 0 8px 6px -6px black;
 }
 
-.icon-box {
-  padding: 20px;
-}
-
-.icon-box i {
-  padding: 20px;
-}
-
-.icon-box i {
-  padding: 10px;
-  background: black;
+.contact-box i {
+  background-color: black;
+  height: 100%;
+  width: 12%;
+  padding: 30px 10px;
+  margin: 0;
   color: white;
+  border-radius: 3px;
+}
+
+.contact-box p {
+  padding-left: 20px;
+  padding-top: 15px;
 }
 
 .contact-box a {
-  font-size: 2em;
+  padding: 20px;
   text-align: center;
-  background: white;
+  color: rgb(226, 69, 69);
+
 }
 
 /* Footer */
