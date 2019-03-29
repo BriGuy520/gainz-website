@@ -52,9 +52,9 @@ class Navbar extends Component {
                         />
                     </div>
                     <nav className="nav-list">
-                        <li>About</li>
-                        <li>Plans</li>
-                        <li>Contact</li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#plans">Plans</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <li>Shop</li>
                     </nav>
                 </header>
@@ -75,9 +75,9 @@ class Navbar extends Component {
                                 className="nav-list"
                                 ref={(element) => { this.dropdownMenu = element }}
                             >
-                                <li>About</li>
-                                <li>Plans</li>
-                                <li>Contact</li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#plans">Plans</a></li>
+                                <li><a href="#contact">Contact</a></li>
                                 <li>Shop</li>
                             </nav>
 

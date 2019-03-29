@@ -17,6 +17,16 @@ h1 {
   padding: 15px;
 }
 
+/* Navbar */
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: red;
+}
+
 .gainz-logo {
   z-index: 1000;
 }
@@ -202,6 +212,7 @@ h1 {
 
 .card-barrier {
   border-right: .5px solid white;
+
 }
 
 .plan-cards {

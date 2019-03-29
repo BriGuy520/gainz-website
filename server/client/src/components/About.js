@@ -3,7 +3,7 @@ import gainzCrushingIt from '../images/IMG_0261.jpg';
 
 const About = () => {
   return (
-    <div className="about-section">
+    <div id="about" className="about-section">
       <h1>A Little Bit About John...</h1>
       <div className="about-copy">
           <p>My name is Johnathan Gaines and I am a very cut and fit black guy</p>
