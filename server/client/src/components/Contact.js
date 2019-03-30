@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 const Contact = () => {
   return (
@@ -12,6 +13,7 @@ const Contact = () => {
           <a href="#">johnnygainesfit@gmail.com</a>
         </p>
       </div>
+      <Footer />
     </div>
   )
 }

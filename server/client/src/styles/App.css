@@ -248,7 +248,7 @@ ul {
 /* Contact */
 
 .contact {
-  height: 50vh;
+  height: 80%;
   width: 100%;
   background: rgba(201, 194, 194, 0.87);
 }
@@ -316,7 +316,7 @@ ul {
 
 .socials {
   padding: 10px 20px;
-  font-size: 3.4em;
+  font-size: 2.4em;
   color: black;
 }
 
