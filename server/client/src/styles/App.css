@@ -188,12 +188,13 @@ nav a:hover {
 /* Plans */
 
 .plans-section {
-  background-color: rgba(173, 27, 27, 0.959);
+  background-color: rgb(41, 40, 40);
   height: 100vh;
 }
 
 .plans-section p, h1 {
   text-align: center;
+  color: rgb(204, 56, 56);
 }
 
 .plans-section p {
@@ -211,8 +212,9 @@ nav a:hover {
 }
 
 .card-barrier {
-  border-right: .5px solid white;
-
+  border: 3px solid rgb(199, 45, 45);
+  margin: 10px;
+  background-color: white;
 }
 
 .plan-cards {
