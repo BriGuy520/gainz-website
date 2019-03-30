@@ -24,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-  color: red;
+  color: rgb(207, 52, 52);
 }
 
 .gainz-logo {
@@ -182,8 +182,10 @@ nav a:hover {
 }
 
 .about-image {
-  padding-left: 50px;
+  padding: 0 50px;
+  width: 30%;
 }
+
 
 /* Plans */
 
@@ -192,7 +194,7 @@ nav a:hover {
   height: 100vh;
 }
 
-.plans-section p, h1 {
+.plans-section p, .plans-section h1 {
   text-align: center;
   color: rgb(204, 56, 56);
 }
@@ -226,6 +228,7 @@ nav a:hover {
 
 .plan-cards p {
   padding: 15px;
+  color: black;
 }
 
 .plan-cards ul li {
@@ -250,7 +253,7 @@ ul {
   background: rgba(201, 194, 194, 0.87);
 }
 
-.contact p, h1 {
+.contact p, .contact h1 {
   text-align: center;
   margin: 0;
 }
