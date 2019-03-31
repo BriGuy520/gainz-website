@@ -375,7 +375,41 @@ ul {
       overflow: hidden;
       padding: 0;
     }
+
+    .plans-section {
+      height: 100%;
+    }
+
+    .plan-cards {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-box {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .footer {
+      text-align: center;
+    }
+
+    .logo {
+      padding-bottom: 10px;
+    }
+
+    .socials-logo {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .socials {
+      padding: 0;
+    }
   }
+
+ 
   
   @media only screen and (max-width: 420px){
   
