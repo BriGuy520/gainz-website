@@ -5,6 +5,9 @@ const About = () => {
   return (
     <div id="about" className="about-section">
       <h1>A Little Bit About John...</h1>
+      <div className="about-image">
+        <img alt="Gaines Crushing It" src={gainzCrushingIt} />
+      </div>
       <div className="about-copy">
           <p>My name is Johnathan Gaines and I am a very cut and fit black guy</p>
           <p>Maybe I can help you become a very cut and fit black guy?</p>
@@ -22,9 +25,6 @@ const About = () => {
           lorem, accumsan vel facilisis vel, aliquet vel justo. Vivamus non ultricies leo, vel sagittis ipsum. Nulla vel vulputate ex. 
           Sed luctus lobortis ligula.
           </p>
-      </div>
-      <div className="about-image">
-        <img alt="Gaines Crushing It" src={gainzCrushingIt} />
       </div>
     </div>
   );

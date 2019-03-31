@@ -162,7 +162,7 @@ nav a:hover {
 .about-section {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: row-reverse;
   padding: 30px;
   width: 100%;
 }
@@ -179,11 +179,6 @@ nav a:hover {
 
 .about-copy p {
   padding: 10px;
-}
-
-.about-image {
-  padding: 0 50px;
-  width: 30%;
 }
 
 
@@ -389,7 +384,7 @@ ul {
     }
 
     .about-image img{
-      width: 400px;
+      width: 300px;
     }
 
     .plans-section {
