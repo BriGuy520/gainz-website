@@ -41,7 +41,7 @@ class Navbar extends Component {
     }
 
     renderNavbar(){
-        if(window.innerWidth > 800){
+        if(window.innerWidth > 900){
             return (
                 <header>
                     <div className="dropdown-menu">

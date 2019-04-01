@@ -9,8 +9,8 @@ const Footer = () => {
           <img alt="The G" src={gainzLogo} style={{height: '50px', width: '65px'}}/>
         </div>
         <div className="socials">
-          <i className="facebook icon"></i>
-          <i className="instagram icon"></i>
+          <a href=""></a><i className="facebook icon"></i>
+          <a href="https://www.instagram.com/johnathangainesfit/"><i className="instagram icon"></i></a>
           <i className="twitter icon"></i>
           <i className="snapchat ghost icon"></i>
         </div>
