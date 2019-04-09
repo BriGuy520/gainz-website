@@ -162,10 +162,8 @@ nav a:hover {
 
 .about-section {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
-  padding: 30px;
-  width: 100%;
+  width: 100vw;
 }
 
 .about-section h1 {
@@ -174,14 +172,19 @@ nav a:hover {
 }
 
 .about-copy {
-  width: 50%;
-  padding: 15px;
+  padding: 50px 65px;
+  background-color: rgb(192, 48, 48);
+  width: 60%;
 }
 
 .about-copy p {
   padding: 10px;
+  color: white;
 }
 
+.about-image img {
+  height: 100vh;
+}
 
 /* Plans */
 
