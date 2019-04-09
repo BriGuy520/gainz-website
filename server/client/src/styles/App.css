@@ -169,6 +169,7 @@ nav a:hover {
 .about-section h1 {
   text-align: left;
   width: 100%;
+  color: white;
 }
 
 .about-copy {
@@ -182,8 +183,15 @@ nav a:hover {
   color: white;
 }
 
+.about-image {
+  margin: 0;
+  padding: 0;
+}
+
 .about-image img {
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 /* Plans */
@@ -359,6 +367,37 @@ ul {
       margin: 18px;
       padding-top: 3px;
     }
+
+    .cover1-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .cover1-info img {
+      width: 40%;
+    }
+
+    .cover1-copy {
+      padding-left: 40px;
+      width: 50%;
+    }
+
+    .cover2-copy {
+      padding: 200px 0;
+      padding-right: 250px;
+    }
+
+    .cover3-info {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+      align-items: center;
+      padding: 10% 0;
+    }
+
+    .cover3-copy {
+      padding: 20px;
+    }
   
     nav li {
       padding: 20px;
@@ -376,19 +415,18 @@ ul {
       padding: 0;
     }
 
-    .about-copy {
+    .about-section {
       display: flex;
       flex-direction: column;
       width: 100%;
     }
 
-    .about-image {
-      padding: 10px;
-
+    .about-copy {
+      width: 100%;
     }
 
     .about-image img{
-      width: 300px;
+      width: 100%;
     }
 
     .plans-section {
@@ -444,8 +482,6 @@ ul {
     }
   }
 
- 
-  
   @media only screen and (max-width: 480px){
   
     body {
@@ -471,7 +507,13 @@ ul {
       margin: 18px;
       padding-top: 3px;
     }
-  
+
+    .slider {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
     nav li {
       display: block;
       float: left;
