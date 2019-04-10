@@ -35,7 +35,7 @@ nav a:hover {
 /* Cover */
 
 .slider {
-  height: 100vh;
+  height: 95vh;
 }
 
 .cover1 {
@@ -54,6 +54,7 @@ nav a:hover {
 
 .cover1 img {
   padding-top: 10%;
+  margin-left: 10%;
   width: 30%;
   height: 30%;
 }
@@ -62,9 +63,13 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   width: 40%;
-  padding-top: 10%;
+  padding-top: 5%;
   color: white;
   text-align: center;
+}
+
+.cover1-copy ul li {
+  content: none;
 }
 
 .cover2 {
@@ -337,6 +342,39 @@ ul {
   color: rgba(173, 27, 27, 0.959);
 }
 
+@media only screen and (max-width: 1030px){
+  .cover1-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cover1-info img {
+    width: 45%;
+  }
+
+  .cover1-copy {
+    margin-left: 2%;
+    width: 60%;
+  }
+
+  .cover2-copy {
+    padding: 200px 0;
+    padding-right: 250px;
+  }
+
+  .cover3-info {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+    padding: 10% 0;
+  }
+
+  .cover3-copy {
+    padding: 20px;
+  }
+}
+
 
 @media only screen and (max-width: 900px){
 
@@ -369,36 +407,7 @@ ul {
       padding-top: 3px;
     }
 
-    .cover1-info {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .cover1-info img {
-      width: 40%;
-    }
-
-    .cover1-copy {
-      padding-left: 40px;
-      width: 50%;
-    }
-
-    .cover2-copy {
-      padding: 200px 0;
-      padding-right: 250px;
-    }
-
-    .cover3-info {
-      display: flex;
-      flex-direction: column-reverse;
-      width: 100%;
-      align-items: center;
-      padding: 10% 0;
-    }
-
-    .cover3-copy {
-      padding: 20px;
-    }
+    
   
     nav li {
       padding: 20px;
