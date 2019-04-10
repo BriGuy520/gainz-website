@@ -180,9 +180,8 @@ nav a:hover {
 }
 
 .about-copy {
-  padding: 90px 65px 50px 0;
+  padding: 90px 65px 50px 65px;
   background-color: rgb(192, 48, 48);
-  width: 60%;
 }
 
 .about-copy p {
