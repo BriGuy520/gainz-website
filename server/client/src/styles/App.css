@@ -35,7 +35,7 @@ nav a:hover {
 /* Cover */
 
 .slider {
-  height: 95vh;
+  height: 89vh;
 }
 
 .cover1 {
@@ -169,6 +169,8 @@ nav a:hover {
   display: flex;
   flex-direction: row-reverse;
   width: 100vw;
+  height: 100vh;
+  background-color: rgb(192, 48, 48);
 }
 
 .about-section h1 {
@@ -178,7 +180,7 @@ nav a:hover {
 }
 
 .about-copy {
-  padding: 50px 65px;
+  padding: 90px 65px 50px 0;
   background-color: rgb(192, 48, 48);
   width: 60%;
 }
@@ -194,7 +196,7 @@ nav a:hover {
 }
 
 .about-image img {
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -203,7 +205,8 @@ nav a:hover {
 
 .plans-section {
   background-color: rgb(41, 40, 40);
-  height: 100%;
+  height: 100vh;
+
 }
 
 .plans-section p, .plans-section h1 {
@@ -215,14 +218,9 @@ nav a:hover {
   font-size: 1.2em;
 }
 
-.indy-card {
-  display: flex;
-  justify-content: flex-end;
-  height: 80%;
-}
-
 .pad-list {
   padding: 10px;
+  height: 50vh;
 }
 
 .card-barrier {
@@ -239,7 +237,7 @@ nav a:hover {
 }
 
 .plan-cards p {
-  padding: 15px;
+  padding: 20px 15px 50px 15px;
   color: black;
 }
 
