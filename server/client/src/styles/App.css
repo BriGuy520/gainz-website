@@ -18,6 +18,11 @@ h1 {
   padding: 15px;
 }
 
+img.resize {
+  width: auto;
+  height: auto;
+}
+
 /* Navbar */
 
 nav a {
@@ -53,8 +58,6 @@ nav a:hover {
 }
 
 .cover1 img {
-  padding-top: 10%;
-  margin-left: 10%;
   width: 30%;
   height: 30%;
 }
@@ -63,7 +66,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   width: 40%;
-  padding-top: 5%;
+  padding-top: 10%;
   color: white;
   text-align: center;
 }
@@ -124,6 +127,10 @@ nav a:hover {
 .cover3-copy ul li {
   font-size: 1.4em;
   line-height: 2em;
+}
+
+.cover3-info img {
+  width: 400px;
 }
 
 .cover3-info {
@@ -219,7 +226,10 @@ nav a:hover {
 
 .pad-list {
   padding: 10px;
-  height: 50vh;
+}
+
+.pad-list ul {
+  padding: 20px 0;
 }
 
 .card-barrier {
@@ -256,10 +266,13 @@ ul {
 
 /* Contact */
 
+.contact-container {
+  height: 100vh;
+}
+
 .contact-section {
-  height: 80%;
-  width: 100%;
   background: rgba(231, 208, 164, 0.87);
+  height: 100%;
 }
 
 .contact-section p, .contact-section h1 {
@@ -276,8 +289,8 @@ ul {
   flex-direction: row;
   align-content: center;
   background-color: white;
-  margin: 5% 18%;
-  width: 65%;
+  margin: 8% 22%;
+  width: 55%;
   font-size: 2em;
   border-radius: 3px;
   box-shadow: 0 8px 6px -6px black;
@@ -311,6 +324,7 @@ ul {
 .footer {
   padding: 20px;
   background: black;
+  height: 40vh;
 }
 
 .divider {
@@ -340,6 +354,10 @@ ul {
 }
 
 @media only screen and (max-width: 1030px){
+
+  .slider {
+    height: 94vh;
+  }
   .cover1-info {
     display: flex;
     flex-direction: column;
@@ -370,6 +388,26 @@ ul {
   .cover3-copy {
     padding: 20px;
   }
+
+  .about-section {
+    height: 55vh;
+    width: 100%;
+  }
+
+  .about-copy {
+    width: 70%;
+  }
+
+  .about-image img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .plans-section {
+    height: 100%;
+  }
 }
 
 
@@ -390,7 +428,7 @@ ul {
     .dropdown-menu img {
       position: relative;
       float: left;
-      margin: 0 42%;
+      margin: 2% 42%;
     }
   
     .dropdown-menu i {
@@ -400,12 +438,10 @@ ul {
       font-size: 2em;
       border-radius: 10%;
       cursor: pointer;
-      margin: 18px;
-      padding-top: 3px;
+      margin: 20px;
+      padding: 8px 20px 0 0;
     }
 
-    
-  
     nav li {
       padding: 20px;
     }
@@ -432,12 +468,8 @@ ul {
       width: 100%;
     }
 
-    .about-image img{
-      width: 100%;
-    }
-
     .plans-section {
-      height: 100%;
+      height: 40vh;
     }
 
     .plan-cards {
