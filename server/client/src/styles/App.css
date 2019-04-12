@@ -302,13 +302,8 @@ ul {
 
 /* Contact */
 
-.contact-container {
-  height: 100vh;
-}
-
 .contact-section {
   background: rgba(231, 208, 164, 0.87);
-  height: 100%;
 }
 
 .contact-section p, .contact-section h1 {
@@ -359,8 +354,7 @@ ul {
 
 .footer {
   padding: 20px;
-  background: black;
-  height: 40vh;
+  background: black;  
 }
 
 .divider {
@@ -404,8 +398,9 @@ ul {
   }
 
   .cover1-copy {
-    margin-left: 2%;
-    width: 60%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
   }
 
   .cover2-copy {
@@ -452,8 +447,8 @@ ul {
   }
 
   .contact-box p {
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
     text-align: center;
     font-size: 1em;
   }
@@ -481,7 +476,7 @@ ul {
     }
   
     .dropdown-menu i {
-      color: rgba(230, 77, 77, 0.973);
+      color: rgb(218, 47, 47);
       display: flex;
       justify-content: right;
       font-size: 2em;
@@ -505,6 +500,11 @@ ul {
       width: 100%;
       overflow: hidden;
       padding: 0;
+    }
+
+    .cover2-copy {
+      padding: 100px 0;
+      padding-right: 250px;
     }
 
     .about-section {
