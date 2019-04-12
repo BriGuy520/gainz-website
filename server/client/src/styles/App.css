@@ -46,6 +46,14 @@ nav a:hover {
     width: 100%;
 }
 
+.accomplishments {
+  font-size: 1.3em;
+}
+
+.accomplishments i {
+  color: #ffff00;
+}
+
 .cover1-info {
   display: flex;
   flex-direction: row;
@@ -242,11 +250,12 @@ nav a:hover {
 }
 
 .card-barrier:nth-child(even){
-  border: 2px solid rgb(199, 45, 45);
+  border: 3px solid rgb(199, 45, 45);
 }
 
 .plan-choices {
   text-align: center;
+  padding-top: 10px;
 }
 
 .plan-choices h3 {
@@ -255,11 +264,12 @@ nav a:hover {
 
 .types {
   font-size: 1.2em;
-  padding: 10px;
+  text-transform: uppercase;
 }
 
 .price {
   font-size: 3em;
+  color: rgb(199, 45, 45);
 }
 
 .plan-cards {
@@ -412,10 +422,15 @@ ul {
 
   .cover3-copy {
     padding: 20px;
+    width: 100%;
+  }
+
+  .cover3-info img {
+    width: 50%;
   }
 
   .about-section {
-    height: 55vh;
+    height: 100vh;
     width: 100%;
   }
 

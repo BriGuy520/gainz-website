@@ -18,7 +18,7 @@ const Cover3 = () => {
             </a>
           </button>
         </div>
-        <img src={gainzBook} alt="gainz book" style={{'width': '38%', 'height': '80%'}}/>
+        <img src={gainzBook} alt="gainz book" />
       </div>
     </div>
   )

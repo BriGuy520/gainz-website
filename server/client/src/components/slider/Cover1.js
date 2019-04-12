@@ -9,9 +9,10 @@ const Cover1 =  () => {
                 <img src={npcLogo} alt="npc-logo" />
                 <div className="cover1-copy">
                     <h1>Work with the Best.</h1>
-                    <ul>
-                        <li>1st Place in Men's Physique Open D at the 2018 NPC Midwest Gladiator</li>
-                    </ul>
+                    <span className="accomplishments">
+                        <i class="trophy icon"></i>
+                        1st Place in Men's Physique Open D at the 2018 NPC Midwest Gladiator
+                    </span>
                 </div>
             </div>
         </div>
