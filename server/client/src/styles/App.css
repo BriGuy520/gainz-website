@@ -18,11 +18,6 @@ h1 {
   padding: 15px;
 }
 
-img.resize {
-  width: auto;
-  height: auto;
-}
-
 /* Navbar */
 
 nav a {
@@ -212,12 +207,12 @@ nav a:hover {
 .plans-section {
   background-color: rgb(41, 40, 40);
   height: 100vh;
-
 }
 
 .plans-section p, .plans-section h1 {
   text-align: center;
   color: rgb(204, 56, 56);
+  font-weight: 100;
 }
 
 .plans-section p {
@@ -232,21 +227,51 @@ nav a:hover {
   padding: 20px 0;
 }
 
+.pad-list ul li {
+  border-bottom: .5px solid black;
+  list-style: none;
+}
+
+.pad-list ul li:nth-child(even){
+  background: rgb(255, 235, 235);
+}
+
 .card-barrier {
-  border: 3px solid rgb(199, 45, 45);
-  margin: 10px;
   background-color: white;
+  width: 20%;
+}
+
+.card-barrier:nth-child(even){
+  border: 2px solid rgb(199, 45, 45);
+}
+
+.plan-choices {
+  text-align: center;
+}
+
+.plan-choices h3 {
+  font-weight: 200;
+}
+
+.types {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.price {
+  font-size: 3em;
 }
 
 .plan-cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: center;
+  width: 100%;
+  margin: 40px 0;
 }
 
 .plan-cards p {
-  padding: 20px 15px 50px 15px;
+  padding: 20px 15px;
   color: black;
 }
 
