@@ -389,7 +389,7 @@ ul {
   color: rgba(173, 27, 27, 0.959);
 }
 
-@media only screen and (max-width: 1030px){
+@media only screen and (max-width: 1300px){
 
   .slider {
     height: 94vh;
@@ -437,7 +437,7 @@ ul {
 
   .about-copy {
     width: 70%;
-    padding: 20px;
+    padding: 80px 30px;
   }
 
   .about-image img {
@@ -460,7 +460,7 @@ ul {
 }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1000px){
 
     body {
       margin: 0;
@@ -523,11 +523,14 @@ ul {
     .plan-cards {
       display: flex;
       flex-direction: column;
+      padding-bottom: 10px;
     }
 
     .card-barrier {
       background-color: white;
-      width: 100%;
+      width: 80%;
+      margin: 0 auto;
+      border: 3px solid rgb(199, 45, 45);
     }
 
     .contact-box {
@@ -551,6 +554,11 @@ ul {
 
     .logo {
       padding-bottom: 20px;
+    }
+
+    .contact-box {
+      width: 80%;
+      margin: 10% auto;
     }
 
     .contact-box p {
