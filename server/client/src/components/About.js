@@ -4,9 +4,7 @@ import gainzCrushingIt from '../images/IMG_0261.jpg';
 const About = () => {
   return (
     <div id="about" className="about-section">
-      <div className="about-image">
-        <img alt="Gaines Crushing It" src={gainzCrushingIt} />
-      </div>
+      <img alt="Gaines Crushing It" src={gainzCrushingIt} />
       <div className="copy">
         <h1>A Little Bit About John...</h1>
         <p>My name is Johnathan Gaines and I am a very cut and fit black guy</p>

@@ -44,8 +44,7 @@ class Plans extends Component {
             </div>
           </div>
       );
-    })
-
+    });
   }
 
   render(){

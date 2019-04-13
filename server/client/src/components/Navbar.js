@@ -84,7 +84,6 @@ class Navbar extends Component {
                         ) : (
                             null
                         )
-                    
                     }
                 </header>
             );
