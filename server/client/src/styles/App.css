@@ -35,7 +35,7 @@ nav a:hover {
 /* Cover */
 
 .slider {
-  height: 89vh;
+  height: 92vh;
 }
 
 .cover1 {
@@ -134,7 +134,7 @@ nav a:hover {
 
 .cover3-info img {
   height: 20%;
-  width: 45%;
+  width: 40%;
 }
 
 .cover3-info {
@@ -220,12 +220,12 @@ nav a:hover {
 
 .plans-section p, .plans-section h1 {
   text-align: center;
-  color: rgb(204, 56, 56);
-  font-weight: 100;
+  color: rgb(204, 56, 56); 
 }
 
 .plans-section p {
   font-size: 1.2em;
+  font-weight: 100;
 }
 
 .pad-list {
@@ -331,7 +331,8 @@ ul {
   background-color: black;
   height: 100%;
   width: 12%;
-  padding: 30px 10px;
+  padding: 50px 30px;
+  font-size: 1.4em;
   margin: 0;
   color: white;
   border-radius: 3px;
@@ -339,7 +340,7 @@ ul {
 
 .contact-box p {
   padding-left: 75px;
-  padding-top: 15px;
+  padding-top: 35px;
   text-align: center;
 }
 
@@ -366,6 +367,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .socials {
@@ -403,21 +405,12 @@ ul {
     padding: 0;
   }
 
-  .cover2-copy {
-    padding: 200px 0;
-    padding-right: 250px;
-  }
-
-  .cover3-info {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    align-items: center;
-    padding: 10% 0;
+  .cover3 {
+    padding: 80px 0;
   }
 
   .cover3-copy {
-    padding: 20px;
+    padding: 60px 20px;
     width: 100%;
   }
 
@@ -448,7 +441,7 @@ ul {
 
   .contact-box p {
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
     text-align: center;
     font-size: 1em;
   }
@@ -472,7 +465,8 @@ ul {
     .dropdown-menu img {
       position: relative;
       float: left;
-      margin: 2% 42%;
+      margin: 1% 20% 1% 45%;
+      padding: 0 2px;
     }
   
     .dropdown-menu i {
@@ -500,11 +494,6 @@ ul {
       width: 100%;
       overflow: hidden;
       padding: 0;
-    }
-
-    .cover2-copy {
-      padding: 100px 0;
-      padding-right: 250px;
     }
 
     .about-section {
@@ -602,14 +591,14 @@ ul {
       float: left;
       margin: 0;
       width: 10%;
-      
+      padding-bottom: 5px;
     }
   
     .dropdown-menu i {
       font-size: 2em;
       border-radius: 10%;
       cursor: pointer;
-      margin: 18px;
+      margin: 10px;
       padding-top: 3px;
     }
 
@@ -617,6 +606,28 @@ ul {
       display: flex;
       flex-direction: column;
       width: 100%;
+    }
+
+    .cover1 {
+      padding: 70px 10px;
+    }
+
+    .cover1 img {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .cover2-copy {
+      padding: 90px 10px;
+      width: 100%;
+    }
+
+    .cover3 {
+      padding-top: 0;
+    }
+
+    .cover3-copy {
+      padding: 0 10px;
     }
 
     nav li {
@@ -637,6 +648,14 @@ ul {
     .nav-list {
       display: flex;
       flex-direction: column;
+    }
+
+    .cover3-info {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+      align-items: center;
+      padding: 10% 0;
     }
 
     .contact-box p {
