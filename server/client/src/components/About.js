@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-image">
         <img alt="Gaines Crushing It" src={gainzCrushingIt} />
       </div>
-      <div className="about-copy">
+      <div className="copy">
         <h1>A Little Bit About John...</h1>
         <p>My name is Johnathan Gaines and I am a very cut and fit black guy</p>
         <p>Maybe I can help you become a very cut and fit black guy?</p>

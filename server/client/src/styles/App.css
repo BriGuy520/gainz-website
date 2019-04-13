@@ -25,6 +25,7 @@ h1 {
 
 p {
   color: var(--light);
+  padding-bottom: 1rem;
 }
 
 a {
@@ -85,16 +86,16 @@ img {
 }
 
 .cover-one {
-    background: url('../images/IMG_0187.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 400px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
+  background: url('../images/IMG_0187.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
 }
 
 .cover-two {
@@ -149,36 +150,99 @@ img {
   width: 100%;
 }
 
+/* Plans */
+
+.plans-section {
+  background-color: var(--dark);
+  padding: 1rem;
+}
+
+.plans-section h1, .plans-section p {
+  color: var(--primary);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.card {
+  background-color: var(--light);
+  text-align: center;
+  padding: 1rem;
+  border: 2px solid var(--primary);
+}
+
+.card p {
+  color: var(--dark);
+}
+
+.card ul li {
+  list-style: none;
+  line-height: 1.8em;
+}
+
+.types {
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.price {
+  font-weight: 100;
+  font-size: 2.5em;
+  color: var(--primary);
+}
+
+/* Contact */
+
+.contact-section {
+  background-color: rgb(158, 154, 154);
+  padding: 1rem;
+}
+
+.contact-section h1, .contact-section p {
+  color: var(--dark);
+  text-align: center;
+}
+
+.contact-box {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  font-size: 1.4rem;
+  background-color: var(--light);
+  border-radius: 2px;
+  padding: 1rem;
+}
+
+.contact-box a {
+  color: var(--primary);
+}
+
+.contact-box i {
+  background: var(--light);
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
 /* Footer */
 
 .footer {
-  padding: 20px;
-  background: black;  
+  display: grid;
+  grid-gap: 20px;
+  padding: 2rem;
+  background: black; 
+  width: 100%; 
+}
+
+.socials-logo {
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+}
+
+.socials-logo i {
+  padding: 2rem 1rem;
+  font-size: 2.4em;
+  color: var(--primary);
 }
 
 .divider {
   padding: 10px 0;
   border-bottom: 2px solid white;
-}
-
-.socials-logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-
-.socials {
-  padding: 10px 20px;
-  font-size: 2.4em;
-  color: black;
-}
-
-.footer p {
-  color: white;
-}
-
-.socials i {
-  padding: 10px 40px;
-  color: rgba(173, 27, 27, 0.959);
 }
