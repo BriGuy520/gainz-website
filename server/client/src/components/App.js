@@ -8,7 +8,7 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="wrapper">
       <Navbar />
       <CoverSlider />
       <About />

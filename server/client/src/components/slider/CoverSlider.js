@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Carousel from 're-carousel';
 import Buttons from '../../widgets/buttons';
 import IndicatorDots from '../../widgets/indicator-dots';
-import Cover1 from './Cover1';
-import Cover2 from './Cover2';
-import Cover3 from './Cover3';
+import CoverOne from './CoverOne';
+import CoverTwo from './CoverTwo';
+import CoverThree from './CoverThree';
 
 class CoverSlider extends Component {
 
@@ -32,31 +32,36 @@ class CoverSlider extends Component {
   renderSlider(){
     if(window.innerWidth > 900){
       return (
-        <Carousel loop auto widgets={[IndicatorDots, Buttons]}>
+        <div className="slider">
+          <Carousel loop auto widgets={[IndicatorDots, Buttons]}>
             <div style={{backgroundColor: 'tomato', height: '100%'}}>
-              <Cover1 />
+              <CoverOne />
             </div>
             <div style={{backgroundColor: 'orange', height: '100%'}}>
-              <Cover2 />
+              <CoverTwo />
             </div>
             <div style={{height: '100%'}}>
-              <Cover3 />
+              <CoverThree />
             </div>
           </Carousel>
+        </div>
+        
       );
     } else {
       return (
-        <Carousel loop widgets={[IndicatorDots, Buttons]}>
-          <div style={{backgroundColor: 'tomato', height: '100%'}}>
-            <Cover1 />
-          </div>
-          <div style={{backgroundColor: 'orange', height: '100%'}}>
-            <Cover2 />
-          </div>
-          <div style={{height: '100%'}}>
-            <Cover3 />
-          </div>
-        </Carousel>
+        <div className="slider">
+          <Carousel loop widgets={[IndicatorDots, Buttons]}>
+            <div style={{backgroundColor: 'tomato', height: '100%'}}>
+              <CoverOne />
+            </div>
+            <div style={{backgroundColor: 'orange', height: '100%'}}>
+              <CoverTwo />
+            </div>
+            <div style={{height: '100%'}}>
+              <CoverThree />
+            </div>
+          </Carousel>
+        </div>
       );
     }
   }
