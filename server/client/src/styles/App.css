@@ -71,7 +71,6 @@ header {
   flex-direction: column;
   justify-content: flex-end;
   background-color: black;
-  box-shadow: 5px 10px white;
 }
 
 .nav-list li {
@@ -154,6 +153,10 @@ header {
   width: 100%;
 }
 
+.about-section img {
+  width: 0;
+}
+
 /* Plans */
 
 .plans-section {
@@ -219,7 +222,7 @@ header {
   background-color: var(--light);
   border-radius: 2px;
   padding: 1rem;
-  box-shadow: 10px 10px 15px var(--shadow);
+  box-shadow: 10px 10px 10px rgb(109, 106, 106);
 }
 
 .contact-box a {
@@ -279,30 +282,44 @@ header {
   }
 
   .about-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .about-section img {
+    width: 50%;
+  }
+
+  .about-section .copy {
+    padding: 5rem;
+  }
+
+  .cover-copy {
+    font-size: 2rem;
   }
 
   .plans-section {
-    height: 100vh;
+    height: 100%;
   }
 
   .plan-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 3rem 15rem;
+    padding: 5rem 0;
   }
 
   .card {
-    height: 60vh;
+    height: 100%;
+    width: 90%;
   }
 
   .contact-section {
-    height: 70vh;
+    height: 100%;
   }
 
   .contact-box {
-    width: 50%;
+    width: 80vw;
     margin: 4rem auto;
     padding: 4rem 0;
   }
@@ -329,5 +346,18 @@ header {
     position: relative;
     display: flex;
     justify-content: space-between;
+  }
+
+  .cover-copy {
+    font-size: 2.4rem;
+  }
+
+  .cover-three {
+    padding: 0 12rem 18rem 12rem;
+  }
+
+  .contact-box {
+    margin: 4rem auto;
+    padding: 4rem 0;
   }
 }

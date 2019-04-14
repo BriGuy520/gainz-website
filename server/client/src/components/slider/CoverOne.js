@@ -5,7 +5,7 @@ import npcLogo from '../../images/transparent-npc-logo.png';
 const CoverOne =  () => {
     return (
         <div className="cover-one">
-            <div className="copy">
+            <div className="copy cover-copy">
                 <h1>Work with the Best.</h1>
                 <p className="accomplishments">
                     <i class="trophy icon"></i>

@@ -5,7 +5,7 @@ const CoverThree = () => {
   return (
     <div className="cover-three">
       <img src={gainzBook} alt="gainz book" />
-      <div className="copy">
+      <div className="copy cover-copy">
         <h1>Read the Book</h1>
         <ul>
           <li>How to Eat</li>

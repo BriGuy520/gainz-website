@@ -3,7 +3,7 @@ import React from 'react';
 const CoverTwo = () => {
   return (
     <div className="cover-two">
-      <div className="copy">
+      <div className="copy cover-copy">
         <h1>What do you Want?</h1>
         <p>
           Get started by filling out a short survey to get a better 
