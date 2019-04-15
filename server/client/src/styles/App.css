@@ -20,7 +20,7 @@ html {
 }
 
 h1 {
-  font-size: 3.4em;
+  font-size: 3em;
   color: var(--light);
   text-align: center;
 }
@@ -44,8 +44,14 @@ a:hover {
 
 .action-button {
   width: 50%;
-  padding: 4rem 0;
-  margin: 2rem 0;
+}
+
+.survey-button {
+  width: 75%;
+}
+
+.buy-button {
+  width: 100%;
 }
 
 img {
@@ -109,7 +115,7 @@ header {
 }
 
 .cover-one {
-  background: url('../images/IMG_0187.JPG');
+  background: url('../images/IMG_0187.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 400px;
@@ -120,6 +126,10 @@ header {
   position: absolute;
 }
 
+.cover-one img {
+  max-width: 30%;
+}
+
 .accomplishments i {
   color: yellow;
 }
@@ -128,6 +138,7 @@ header {
   background: url('../images/IMG_0189.JPG');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 400px;
   width: 100%;
   display: flex;
@@ -277,7 +288,8 @@ header {
 
 .socials-logo {
   display: grid;
-  grid-template-columns: repeat(6, 2fr);
+  justify-self: end;
+  grid-template-columns: 1fr auto repeat(4, 1fr);
 }
 
 .socials-logo i {
@@ -292,6 +304,14 @@ header {
 }
 
 @media(min-width: 700px){
+
+  .survey-button {
+    width: 25%;
+  }
+
+  .buy-button {
+    width: 50%;
+  }
 
   .dropdown-menu {
     margin: 0;
@@ -377,7 +397,6 @@ header {
     position: absolute;
     left: 0;
     top:0;
-  
   }
 
   header {

@@ -1,5 +1,4 @@
 import React from 'react';
-import npcLogo from '../../images/transparent-npc-logo.png';
 
 
 const CoverOne =  () => {

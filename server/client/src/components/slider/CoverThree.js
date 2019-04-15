@@ -12,7 +12,7 @@ const CoverThree = () => {
           <li>How to Workout</li>
           <li>How to Stay Lean</li>
         </ul>
-        <button className="ui button red action-button">
+        <button className="ui button red buy-button">
           <a href="#">
             Buy Now
           </a>
