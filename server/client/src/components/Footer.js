@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="socials-logo">
-        <img alt="The G" src={gainzLogo} style={{height: '50px', width: '65px'}}/>
+        <img alt="The G" className='the-logo' src={gainzLogo} style={{height: '50px', width: '65px'}}/>
         <a href=""></a><i className="facebook icon"></i>
         <a href="https://www.instagram.com/johnathangainesfit/"><i className="instagram icon"></i></a>
         <i className="twitter icon"></i>

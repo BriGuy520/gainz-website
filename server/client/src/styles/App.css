@@ -283,19 +283,19 @@ header {
   grid-gap: 20px;
   padding: 2rem;
   background: black; 
-  width: 100%; 
-}
-
-.socials-logo {
-  display: grid;
-  justify-self: end;
-  grid-template-columns: 1fr auto repeat(4, 1fr);
+  width: 100%;
 }
 
 .socials-logo i {
   padding: 2rem 1rem;
   font-size: 2.4em;
   color: var(--primary);
+}
+
+.socials-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .divider {
@@ -387,6 +387,12 @@ header {
   .contact-box i {
     padding: 2rem;
     font-size: 4.4em;
+  }
+
+  .socials-logo {
+    display: grid;
+    justify-self: start;
+    grid-template-columns: 1fr 20fr repeat(4, 100px);
   }
 }
 
