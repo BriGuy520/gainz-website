@@ -42,6 +42,7 @@ img {
   width: 100vw;
 }
 
+
 .wrapper {
   display: grid;
 }
@@ -50,6 +51,7 @@ img {
 
 header {
   background: black;
+  position: relative;
 }
 
 .dropdown-menu {
@@ -57,6 +59,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   height: 10vh;
+  overflow: hidden;
   padding: 1rem;
 }
 
@@ -92,7 +95,6 @@ header {
   background: url('../images/IMG_0187.JPG');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   min-height: 400px;
   width: 100%;
   display: flex;
@@ -101,11 +103,14 @@ header {
   position: absolute;
 }
 
+.accomplishments i {
+  color: yellow;
+}
+
 .cover-two {
   background: url('../images/IMG_0189.JPG');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   min-height: 400px;
   width: 100%;
   display: flex;
@@ -339,17 +344,20 @@ header {
 
   .gainz-logo {
     z-index: 1000;
+    position: fixed;
+  
   }
 
   header {
     overflow: hidden;
     position: relative;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
   }
 
   .cover-copy {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .cover-three {
@@ -359,5 +367,9 @@ header {
   .contact-box {
     margin: 4rem auto;
     padding: 4rem 0;
+  }
+
+  .contact-box span {
+    font-size: 2.4em;
   }
 }
