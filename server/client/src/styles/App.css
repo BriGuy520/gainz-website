@@ -34,17 +34,34 @@ a {
   color: var(--light);
 }
 
-a:hover {
+nav a:hover {
   color: var(--primary);
+}
+
+a:hover {
+  color: var(--light);
+}
+
+.action-button {
+  width: 50%;
+  padding: 4rem 0;
+  margin: 2rem 0;
 }
 
 img {
   width: 100vw;
 }
 
-
 .wrapper {
   display: grid;
+}
+
+.headline {
+  padding: 1rem 0;
+}
+
+.sub-headline {
+  font-size: 1.4em;
 }
 
 /* Navbar */
@@ -208,6 +225,14 @@ header {
   color: var(--primary);
 }
 
+.pad-list {
+  padding-bottom: 2rem;
+}
+
+.pad-list ul {
+  font-size: 1.4rem;
+}
+
 /* Contact */
 
 .contact-section {
@@ -286,6 +311,10 @@ header {
     min-height: 90vh;
   }
 
+  .cover-three ul {
+    line-height: 3rem;
+  }
+
   .about-section {
     display: flex;
     flex-direction: row;
@@ -311,7 +340,8 @@ header {
   .plan-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 5rem 0;
+    padding: 2rem 0;
+    margin: 0 auto;
   }
 
   .card {
@@ -344,14 +374,13 @@ header {
 
   .gainz-logo {
     z-index: 1000;
-    position: fixed;
+    position: absolute;
+    left: 0;
+    top:0;
   
   }
 
   header {
-    overflow: hidden;
-    position: relative;
-    z-index: 100;
     display: flex;
     justify-content: space-between;
   }
@@ -371,5 +400,9 @@ header {
 
   .contact-box span {
     font-size: 2.4em;
+  }
+
+  .email-icon {
+    margin: 2rem;
   }
 }

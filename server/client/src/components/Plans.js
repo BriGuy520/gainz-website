@@ -42,6 +42,11 @@ class Plans extends Component {
                 </ul>
               </div>
             </div>
+            <button className="ui button red action-button">
+              <a href="#">
+                Buy Now
+              </a>
+            </button>
           </div>
       );
     });
@@ -50,8 +55,8 @@ class Plans extends Component {
   render(){
     return (
       <div id="plans" className="plans-section">
-        <h1>Pick a Plan That Works for You.</h1>
-        <p>No need to box yourself in. Pick a plan that works best for your schedule and budget.</p>
+        <h1 className="headline">Pick a Plan That Works for You.</h1>
+        <p className="sub-headline">No need to box yourself in. Pick a plan that works best for your schedule and budget.</p>
         <div className="plan-cards">
           {this.renderPlans()}
         </div> 
