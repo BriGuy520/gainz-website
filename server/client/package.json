@@ -2,7 +2,9 @@
   "name": "gaines-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://briguy520.github.io/gainz-website",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "re-carousel": "^2.3.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
@@ -13,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
