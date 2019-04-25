@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import gainzLogo from '../images/gainz-logo.png';
 
 class Navbar extends Component {
@@ -55,7 +56,7 @@ class Navbar extends Component {
                         <li><a href="#about">About</a></li>
                         <li><a href="#plans">Plans</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li>Shop</li>
+                        <li><Link to="/contact">Shop</Link></li>
                     </nav>
                 </header>
             );
@@ -78,7 +79,7 @@ class Navbar extends Component {
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#plans">Plans</a></li>
                                 <li><a href="#contact">Contact</a></li>
-                                <li>Shop</li>
+                                <li><Link to="/contact">Shop</Link></li>
                             </nav>
 
                         ) : (

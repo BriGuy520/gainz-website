@@ -16,7 +16,8 @@
     "express": "^4.16.4",
     "mongoose": "^5.4.19",
     "morgan": "^1.9.1",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "react-router-dom": "^5.0.0"
   },
   "devDependencies": {},
   "description": ""
