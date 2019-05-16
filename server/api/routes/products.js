@@ -11,11 +11,10 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
-  const { name, sizes, images, description, price, category } = req.body;
+  const { name, size, description, price, category } = req.body;
   const product = new Product({
     name,
-    sizes,
-    images,
+    size,
     description,
     price,
     category

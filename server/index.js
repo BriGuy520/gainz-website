@@ -13,6 +13,10 @@ app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// bring in the routes files
+app.use('/orders', orderRoutes);
+app.use('/products', productRoutes);
+
 app.use((req, res, next) => {
   const error = new Error('Not Found');
   error.status = 404;
@@ -27,10 +31,6 @@ app.use((req, res, next) => {
     }
   })
 });
-
-// bring in the routes files
-app.use('/orders', orderRoutes);
-app.use('/products', productRoutes);
 
 
 const PORT = process.env.PORT || 8080;
