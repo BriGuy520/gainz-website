@@ -13,4 +13,10 @@ router.post('/:orderId', (req, res, next) => {
   });
 });
 
+router.patch('/:orderId', (req, res, next) => {
+  res.status(200).json({
+    message: "Congrats your order has been updated"
+  })
+})
+
 module.exports = router;

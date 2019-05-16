@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 
 // bring in the routes files
 app.use('/orders', orderRoutes);
-app.use('/products', productRoute);
+app.use('/products', productRoutes);
 
 
 const PORT = process.env.PORT || 8080;
