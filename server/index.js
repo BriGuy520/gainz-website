@@ -4,6 +4,8 @@ const morgan = require('morgan');
 
 const app = express();
 
+require('./models/Product');
+
 const orderRoutes = require('./api/routes/orders');
 const productRoutes = require('./api/routes/products');
 

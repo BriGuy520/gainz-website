@@ -1,5 +1,7 @@
 const express = require("express");
+const mongoose = require('mongoose');
 const router = express.Router();
+
 const Product = mongoose.model("Product");
 
 router.get('/', (req, res, next) => {
@@ -8,10 +10,20 @@ router.get('/', (req, res, next) => {
   });
 });
 
-router.post('/:productId', (req, res, next) => {
-  res.status(200).json({
-    message: 'This a new product to post'
+router.post('/', (req, res, next) => {
+  const { name, sizes, images, description, price, category } = req.body;
+  const product = new Product({
+    name,
+    sizes,
+    images,
+    description,
+    price,
+    category
   });
+
+  product.save();
+  res.send(product);  
+
 });
 
 
