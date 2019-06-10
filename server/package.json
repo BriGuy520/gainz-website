@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://briguy520.github.io/my-website/",
+  "homepage": "https://briguy520.github.io/gainz-website/",
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
