@@ -12,7 +12,7 @@
     "react-slick": "^0.23.2",
     "slick-carousel": "^1.8.1"
   },
-  "homepage": "http://briguy520.github.io/gainz-website",
+  "homepage": "https://briguy520.github.io/gainz-website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
