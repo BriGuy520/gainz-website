@@ -7,8 +7,6 @@ const About = () => {
       <img alt="Gaines Crushing It" src={gainzCrushingIt} />
       <div className="copy">
         <h1>A Little Bit About John...</h1>
-        <p>My name is Johnathan Gaines and I am a very cut and fit black guy</p>
-        <p>Maybe I can help you become a very cut and fit black guy?</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit vitae orci consectetur pellentesque. 
           Suspendisse sodales nibh sit amet blandit commodo. Etiam dictum iaculis libero non rhoncus. Sed sed luctus leo. 

@@ -2,9 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://briguy520.github.io/my-website/",
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },

@@ -135,7 +135,7 @@ header {
 }
 
 .cover-two {
-  background: url('../images/IMG_0189.JPG');
+  background: url('../images/IMG_0189.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -208,6 +208,7 @@ header {
   text-align: center;
   padding: 1rem;
   border: 2px solid var(--primary);
+  margin: 15px 0;
 }
 
 .card p {
@@ -339,14 +340,21 @@ header {
     display: flex;
     flex-direction: row;
     height: 100%;
+    background: url('../images/gym-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .about-section img {
     width: 50%;
+    margin: 5%;
   }
 
   .about-section .copy {
     padding: 5rem;
+    background: var(--primary);
+    margin: 5%;
+    box-shadow: 5px 5px 20px rgb(156, 156, 156);
   }
 
   .cover-copy {

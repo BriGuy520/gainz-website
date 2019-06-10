@@ -6,19 +6,19 @@ class Plans extends Component {
     plans: [{
       type: "Basic",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      benefits: ['Crush it like Gaines', 'Personalization', 'Save Money', 'Meal plans'],
+      benefits: ['Affordable', 'Personalized Workouts', 'Weekly Progress Reports'],
       price: 25
     },
     {
       type: "Balanced",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      benefits: ['Crush it like Gaines', 'Personalization', 'Save Money', 'Meal plans'],
+      benefits: ['Personalized Workouts', 'Bi-Weekly Progress Reports', 'Basic Meal Plans'],
       price: 50
     },
     {
       type: "Intense",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      benefits: ['Crush it like Gaines', 'Personalization', 'Save Money', 'Meal plans'],
+      benefits: ['Personalized Workouts', 'Daily Progress Reports', 'Detailed Meal Plans'],
       price: 100
     }]
 
