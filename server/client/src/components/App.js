@@ -18,9 +18,6 @@ const App = () => {
         <About />
         <Plans />
         <Contact />
-        <Switch>
-          <Route path="/shop" exact component={Shop} /> 
-        </Switch>
         <Footer />
       </div>
     </BrowserRouter>

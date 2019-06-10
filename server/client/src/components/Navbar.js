@@ -56,7 +56,7 @@ class Navbar extends Component {
                         <li><a href="#about">About</a></li>
                         <li><a href="#plans">Plans</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><Link to="/contact">Shop</Link></li>
+                        <li><Link to="/shop">Shop</Link></li>
                     </nav>
                 </header>
             );
@@ -79,7 +79,7 @@ class Navbar extends Component {
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#plans">Plans</a></li>
                                 <li><a href="#contact">Contact</a></li>
-                                <li><Link to="/contact">Shop</Link></li>
+                                <li><Link to="/shop">Shop</Link></li>
                             </nav>
 
                         ) : (
